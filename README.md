@@ -26,3 +26,16 @@ for (let i = 2; i<=10; i++) {
     }
 }
 ```
+### Work Experience
+---
+Nothing in programming... but I have 2 years of experience working as a Pre-sales Manager in the IT outsourcing companies. 
+* **Innowise Group** (February 2022 - October 2022);
+* **Bamboo Group** (October 2020 - January 2022).
+### Education 
+---
+* **Minsk State Linguistic University**. Foreign language teaching (2015-2020);
+* **A1QA**. Course in software testing (2018).
+### Languages
+---
+* Russian:  C2 (Native)
+* English: B2 (Upper Intermediate)
