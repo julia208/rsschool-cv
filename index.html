@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My CV</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__container clearfix">
+                <div class="header__photo">
+                    <img class="header__img" src="images/myphoto.png" alt="My Photo">
+                </div>
+                <div class="header__content">
+                    <h1 class="header__title">Julia Shakova</h1>
+                    <h2 class="header__subtitle">Junior Frontend developer</h1>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <nav class="navigation">
+                <ul class="navigation__list">
+                    <li class="navigation__list-item"><a class="navigation__link" href="#about-me">About me</a></li>
+                    <li class="navigation__list-item"><a class="navigation__link" href="#contacts">Contacts</a></li>
+                    <li class="navigation__list-item"><a class="navigation__link" href="#skills">Skills</a></li>
+                    <li class="navigation__list-item"><a class="navigation__link" href="#code">Code</a></li>
+                    <li class="navigation__list-item"><a class="navigation__link" href="#projects">Projects</a></li>
+                    <li class="navigation__list-item"><a class="navigation__link" href="#education">Education</a></li>
+                </ul>
+            </nav>
+            <section class="section" id="about-me">
+                <h3 class="section__title">About me</h3>
+                <p class="section__content">I'm passionate about Front-end development. Every time I'm learning the latest technologies and improving my skills. I have strong communication and interpersonal skills.</p>
+            </section>
+            <section class="section" id="contacts">
+                <h3 class="section__title">Contacts</h3>
+                <ul class="section__list">
+                    <li class="section__list-item">Location: Warsaw, Poland</li>
+                    <li class="section__list-item">E-mail: <a class="section__link" href="mailto:yulia20shakova@gmail.com">yulia20shakova@gmail.com</a></li>
+                    <li class="section__list-item">Tel: <a class="section__link" href="tel:+48572570***">+48572570***</a></li>
+                    <li class="section__list-item">GitHub: <a class="section__link" target="_blank" href="https://github.com/juliashakova">juliashakova</a></li>
+                </ul>
+            </section>
+            <section class="section" id="skills">
+                <h3 class="section__title">Skills</h3>
+                <ul class="section__list">
+                    <li class="section__list-item">HTML</li>
+                    <li class="section__list-item">CSS</li>
+                    <li class="section__list-item">JavaScript</li>
+                    <li class="section__list-item">Git</li>
+                </ul>
+            </section>
+            <section class="section" id="code">
+                <h3 class="section__title">Code Example</h3>
+                <code class="section__code">
+                    for (let i = 2; i <= 10; i++) {
+                        if (i % 2 == 0 ) {
+                            alert(i);
+                        }
+                    }
+                </code>
+            </section>
+            <section class="section" id="projects">
+                <h3 class="section__title">Projects</h3>
+                <p class="section__content">There are no projects at the moment.</p>
+            </section>
+            <section class="section" id="education">
+                <h3 class="section__title">Education</h3>
+                <div class="section__nested-content">
+                    <h4 class="section__subtitle">Schooling</h4>
+                    <ul class="section__list">
+                        <li class="section__list-item">Minsk State Linguistic University. Foreign language teaching (2015-2020);</li>
+                        <li class="section__list-item">A1QA. Course in software testing (2018).</li>
+                    </ul>
+                </div>
+                <div class="section__nested-content">
+                    <h4 class="section__subtitle">Languages</h4>
+                    <ul class="section__list">
+                        <li class="section__list-item">Russian: C2 (Native)</li>
+                        <li class="section__list-item">English: B2 (Upper Intermediate)</li>
+                    </ul>
+                </div>
+            </section>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__container clearfix">
+                <div class="footer__photo">
+                    <a target="_blank" href="https://rs.school/js-stage0/">
+                        <img class="footer__img" src="images/rs.png" alt="RS logo">
+                    </a>
+                </div>
+                <div class="footer__date">12/2022</div>
+                <div class="footer__content">
+                    <div class="footer__social">
+                        <a target="_blank" href="https://github.com/juliashakova">
+                            <img class="footer__img" src="images/gh-logo.png" alt="RS logo">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
